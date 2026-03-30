@@ -37,7 +37,7 @@
       setQrCode("");
 
       try {
-        const response = await fetch("http://localhost:3000/api/generate-qr", {
+        const response = await fetch("https://upi-to-qr-backend-1.onrender.com/api/generate-qr", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
