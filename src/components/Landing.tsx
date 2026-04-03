@@ -70,7 +70,7 @@
         <div className={`min-h-screen px-4 sm:px-6 lg:px-8 transition-colors duration-300 ${
           isDark ? "bg-zinc-900" : "bg-white"
         }`}>
-          <nav className="flex justify-around items-center pt-10 animate-[slideDown_0.6s_ease-out] max-w-6xl mx-auto">
+          <nav className="flex justify-between px-5 items-center pt-10 animate-[slideDown_0.6s_ease-out] max-w-2xl mx-auto">
             <button className={`font-bold text-xl sm:text-2xl hover:cursor-pointer transition-colors ${
               isDark ? "text-zinc-200" : "text-zinc-800"
             }`}>
